@@ -42,8 +42,10 @@ function editar(id) {
 
     $(".btn-aceptar").removeClass("d-none");
     $(".btn-cancelar").removeClass("d-none");
+    $(".text").removeClass("d-none");
     $(".btn-aceptar").addClass("d-inline");
     $(".btn-cancelar").addClass("d-inline");
+    $(".text").addClass("d-block");
 
     
 }

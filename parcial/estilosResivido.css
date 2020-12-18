@@ -1,0 +1,21 @@
+/* centrar elementos del body */
+body{text-align: center; color: #666666;}
+/* Quitar subrayado de los enlaces */
+a{text-decoration: none; color: blue;}
+a:hover{cursor: pointer}
+/* div que contiene la tabla con sombra */
+.contenedor-tabla{ border-radius: 4px; margin: 0 auto; display: inline-block; box-shadow: 0px 1px 4px 0px rgba(151, 151, 151, 0.75); }
+/* divs del header */
+.imagen{ display: flex; align-items: center; justify-content: center; }
+.texto{ margin-left: 1rem; text-align: start;}
+/* clases a usar con Jquery */
+.d-inline{ display: inline-block; }
+.d-none{ display: none; }
+
+header{ background-color: #8e1ebb; color: white; padding: 1.5rem; display: flex; border-radius: 4px 4px 0 0; }
+section div{ text-align: start; padding: 0 1.3rem; color: #3d86c1; font-weight: bold; border-bottom: 1px solid rgba(151, 151, 151, 0.75);; }
+span{ padding: 0.25rem; background-color: red; color: white; border-radius: 5px; float: right; margin-left: 2rem; }
+#caloria{ background-color: #0078fd; }
+#grasas{ background-color: #15a7be; }
+#proteina{ background-color: #20aa46; }
+#carbo{ background-color: #e03149; }

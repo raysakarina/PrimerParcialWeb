@@ -1,0 +1,30 @@
+ /* centrar elementos del body */
+ body{text-align: center; color: #666666;}
+ /* Quitar subrayado de los enlaces */
+ a{text-decoration: none; color: blue;}
+ a:hover{cursor: pointer}
+ /* div que contiene la tabla con sombra */
+ .contenedor-tabla{ border-radius: 4px; margin: 0 auto; display: inline-block; padding: 3rem; box-shadow: 0px 1px 4px 0px rgba(151, 151, 151, 0.75); }
+ /* Centrado de la tabla */
+ table{ border-collapse: collapse;}
+ /* Espacios de cada celda */
+ th, td{ padding: 1rem; }
+ /* Color de la cabecera */
+ thead{ background-color: #6c757d; color: white;}
+ /* alineacion del texto del footer de la tabla */
+ tfoot td{ text-align: start; padding: 0; }
+ /* Color de cada fila tr */
+ tbody tr{background-color: #e8edff; border-bottom: 1px solid white;}
+ tbody tr:hover{ background-color:  #b7c7ff; }
+ /* bordes del input */
+ input, select{ padding: .4rem; border-radius: 4px; border: 1px solid #b3b3b3; max-width: 80px;}
+ /* Botón aceptar */
+ .btn-aceptar{ padding: .5rem 1rem; border: 1px solid #616161; color: #616161; border-radius: 4px; }
+ .btn-aceptar:hover{ background-color: #616161; color: white; }
+ /* botón cancelar */
+ .btn-cancelar{ padding: .5rem 1rem; border: 1px solid #cc1c1c; color: #cc1c1c; border-radius: 4px;  }
+ .btn-cancelar:hover{ background-color:#cc1c1c; color: white; }
+
+ /* clases a usar con Jquery */
+ .d-inline{display: inline-block;}
+ .d-none{display: none;}

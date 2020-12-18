@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 6</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Tabla de calorías</h1>
+    <div class="contenedor-tabla">
+        <table>
+            <thead>
+                <tr>
+                    <th>Alimento</th>
+                    <th>Calorías (kCal)</th>
+                    <th>Grasas (g)</th>
+                    <th>Proteína (g)</th>
+                    <th>Carbohidratos (g)</th>
+                    <th>ok</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="alimento1">Arandano</td>
+                    <td id="calorias1">49</td>
+                    <td id="grasas1">0.2</td>
+                    <td id="proteinas1">0.4</td>
+                    <td id="carbo1">12.7</td>
+                    <td id="ok1">bien</td>
+                    <td id="1"><a onclick="editar('1')">Editar</a></td>
+                </tr>
+                <tr>
+                    <td id="alimento2">Arandano</td>
+                    <td id="calorias2">49</td>
+                    <td id="grasas2">0.2</td>
+                    <td id="proteinas2">0.4</td>
+                    <td id="carbo2">12.7</td>
+                    <td id="ok2">bien</td>
+                    <td id="2"><a onclick="editar('2')">Editar</a></td>
+                </tr>
+                <tr>
+                    <td id="alimento3">Arandano</td>
+                    <td id="calorias3">49</td>
+                    <td id="grasas3">0.2</td>
+                    <td id="proteinas3">0.4</td>
+                    <td id="carbo3">12.7</td>
+                    <td id="ok3">bien</td>
+                    <td id="3"><a onclick="editar('3')">Editar</a></td>
+                </tr>
+                <tr>
+                    <td id="alimento4">Arandano</td>
+                    <td id="calorias4">49</td>
+                    <td id="grasas4">0.2</td>
+                    <td id="proteinas4">0.4</td>
+                    <td id="carbo4">12.7</td>
+                    <td id="ok4">bien</td>
+                    <td id="4"><a onclick="editar('4')">Editar</a></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7">
+                        <p>Contenido nutricional por cada 100 g de alimento</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <a href="" class="btn-aceptar d-none" onclick="enviar()">Aceptar</a>
+                        <a href="" class="btn-cancelar d-none">Cancelar</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
